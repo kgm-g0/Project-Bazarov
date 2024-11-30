@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    /* width: calc(100vw - 60px); */
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    display: block;
+}
+
+header a {
+    /* color: #111; */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    margin: 5px;
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    background-color: #eee;
+    color: #111;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    transition: all .33s;
+}
+
+header li:hover {
+    transform: scale(1.05);
+    background-color: #111;
+    color: #eee;
+    border: 2px solid #eee;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin-left: 5px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+#content {
+    min-width: calc(100vw - 20px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+}
+
+.infographic {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.infographic h2 {
+    border-bottom: 2px solid #77aaff;
+    padding-bottom: 10px;
+}
+
+.infographic p {
+    margin: 10px 0;
+}
+
+footer {
+    padding-left: 5px;
+    font-size: 16px;
+    /* font-family: Arial, sans-serif; */
+}
